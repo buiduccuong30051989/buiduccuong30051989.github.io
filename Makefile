@@ -9,3 +9,5 @@ deploy:
 	cp -R dist/* ${DEPLOY_PATH};
 	cd ${DEPLOY_PATH}; git add .; git commit -m "`curl whatthecommit.com/index.txt`"
 	cd ${DEPLOY_PATH}; git push -f origin master
+	git add .; git commit -m "`curl whatthecommit.com/index.txt`"
+	git push origin develop -f
