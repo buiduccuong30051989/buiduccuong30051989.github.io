@@ -1,6 +1,47 @@
 body {
-  background-color: blue;
-  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {margin: 0;}
+
+.wrapper {
+}
+
+.sidebar {
+  padding: 30px 15px;
+  width: 366px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #38373c;
   color: #fff;
-  display: flex;
+}
+
+.sidebar__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 30px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.sidebar__about {
+  text-align: justify;
+}
+
+main {
+  width: calc(100% - 366px);
+  margin-left: 366px;
+  background-color: gray;
+  min-height: 100vh;
 }
