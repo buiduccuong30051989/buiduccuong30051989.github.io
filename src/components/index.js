@@ -8,34 +8,36 @@ const App = () => {
         <div className="sidebar__avatar">
           <img src={avatar} alt='avatar' />
         </div>
-        <h2>Bui Duc Cuong</h2>
-        <h4>Frontend Engineer</h4>
+        <div className="sidebar__des">
+          <h2>Bui Duc Cuong</h2>
+          <h4>Frontend Engineer</h4>
+        </div>
         <div className="sidebar__block">
           <h4 className="title">Personal</h4>
           <table>
             <tbody>
               <tr>
-                <th scope="row">Name</th>
+                <th scope="row">Name:</th>
                 <td>Bui Duc Cuong</td>
               </tr>
               <tr>
-                <th scope="row">Date of birth</th>
+                <th scope="row">Date of birth:</th>
                 <td>Bui Duc Cuong</td>
               </tr>
               <tr>
-                <th scope="row">Nationality</th>
+                <th scope="row">Nationality:</th>
                 <td>Bui Duc Cuong</td>
               </tr>
               <tr>
-                <th scope="row">Language</th>
+                <th scope="row">Language:</th>
                 <td>Bui Duc Cuong</td>
               </tr>
               <tr>
-                <th scope="row">Sex</th>
+                <th scope="row">Sex:</th>
                 <td>Bui Duc Cuong</td>
               </tr>
               <tr>
-                <th scope="row">Relationship</th>
+                <th scope="row">Relationship:</th>
                 <td>Bui Duc Cuong</td>
               </tr>
             </tbody>
@@ -112,14 +114,14 @@ const App = () => {
         </div>
       </div>
       <main>
-        <div className="main-block">
+        <div className="main__block">
           <h4 className="title">About Me</h4>
           <p>I'm a front-end developer who is passionate about html/css & js, building great user experiences, fighting for simplicity over complexity, constantly learning and someone who strives to mentor and share with other developers around me.
             From scare js to interesting it, i'm on my way...
             the most important thing is you better than u yesterday
           </p>
         </div>
-        <div className="main-block">
+        <div className="main__block">
           <h4 className="title">Education</h4>
           <table>
             <tbody>
@@ -143,7 +145,7 @@ const App = () => {
           </table>
           <quote>Start Seft Study from W3Schools, codeschool, codecamp, google and many more...until now.</quote>
         </div>
-        <div className="main-block">
+        <div className="main__block">
           <h4 className="title">Work Experience</h4>
           <h5>Markup - Styler</h5>
           <p>ACT Group Company (2015 - 2016)</p>
@@ -170,7 +172,7 @@ const App = () => {
           <p>IDE almost sublime, whatever..</p>
         </div>
 
-        <div className="main-block">
+        <div className="main__block">
           <h4 className="title">Interest:</h4>
           <p>Js, good teamate, high salary, dota2, music...stack overflow, codecamp</p>
         </div>
