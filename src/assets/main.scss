@@ -19,6 +19,7 @@ body{
   word-wrap:break-word;
   margin: 0;
   font-size: 14px;
+  background-image: url('images/patern.png');
 }
 
 * {
@@ -32,17 +33,26 @@ p {
 }
 
 .wrapper {
+  width: 960px;
+  margin: 30px auto;
+  position: relative;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+
 }
 
 .sidebar {
   padding: 30px 25px;
   width: 366px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   background-color: #38373c;
   color: #fff;
+
+  a {
+    color: #fff;
+  }
 }
 
 .sidebar__avatar {
@@ -67,6 +77,10 @@ main {
   background-color: white;
   min-height: 100vh;
   padding: 30px 50px;
+
+  h5 {
+    font-size: 14px;
+  }
 }
 
 tbody th {
@@ -89,7 +103,9 @@ tbody th {
     display: flex;
     align-items: center;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 400;
 
     &:before {
       content: '';
@@ -131,7 +147,7 @@ tbody th {
 
   table {
     td, th {
-      line-height: 18px;
+      height: 30px;
     }
   }
 }

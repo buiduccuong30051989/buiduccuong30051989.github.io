@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import avatar from "./../assets/images/avatar.jpg"
+import avatar from "./../assets/images/myAvatar.png"
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
         </div>
         <div className="sidebar__des">
           <h2>Bui Duc Cuong</h2>
-          <h4>Frontend Engineer</h4>
+          <h4>Frontend Developer</h4>
         </div>
         <div className="sidebar__block">
           <h4 className="title">Personal</h4>
@@ -22,23 +22,23 @@ const App = () => {
               </tr>
               <tr>
                 <th scope="row">Date of birth:</th>
-                <td>Bui Duc Cuong</td>
+                <td>30 - 05 - 1989</td>
               </tr>
               <tr>
                 <th scope="row">Nationality:</th>
-                <td>Bui Duc Cuong</td>
+                <td>Viet Nam</td>
               </tr>
               <tr>
                 <th scope="row">Language:</th>
-                <td>Bui Duc Cuong</td>
+                <td>Vietnamese, English</td>
               </tr>
               <tr>
                 <th scope="row">Sex:</th>
-                <td>Bui Duc Cuong</td>
+                <td>Male</td>
               </tr>
               <tr>
                 <th scope="row">Relationship:</th>
-                <td>Bui Duc Cuong</td>
+                <td>Married</td>
               </tr>
             </tbody>
           </table>
@@ -49,19 +49,21 @@ const App = () => {
             <tbody>
               <tr>
                 <th scope="row">Mobile 1:</th>
-                <td>Bui Duc Cuong</td>
+                <td>0944 76 4545</td>
               </tr>
               <tr>
                 <th scope="row">Mobile 2:</th>
-                <td>Bui Duc Cuong</td>
+                <td>0944 76 4545</td>
               </tr>
               <tr>
                 <th scope="row">Skype:</th>
-                <td>Bui Duc Cuong</td>
+                <td>duccuong3005</td>
               </tr>
               <tr>
                 <th scope="row">FaceBook:</th>
-                <td>Bui Duc Cuong</td>
+                <td>
+                  <a target="blank" href="https://www.facebook.com/m4y1989">m4y1989</a>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -71,20 +73,24 @@ const App = () => {
           <table>
             <tbody>
               <tr>
-                <th scope="row">Mobile 1:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">Teamwork:</th>
+                <td>8/10</td>
               </tr>
               <tr>
-                <th scope="row">Mobile 2:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">Communicate:</th>
+                <td>7/10</td>
               </tr>
               <tr>
-                <th scope="row">Skype:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">Capacity to work under pressure:</th>
+                <td>8/10</td>
               </tr>
               <tr>
-                <th scope="row">FaceBook:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">Critical thinking:</th>
+                <td>7/10</td>
+              </tr>
+              <tr>
+                <th scope="row">Design knowledge:</th>
+                <td>7/10</td>
               </tr>
             </tbody>
           </table>
@@ -94,20 +100,24 @@ const App = () => {
           <table>
             <tbody>
               <tr>
-                <th scope="row">Mobile 1:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">HTML/PUG:</th>
+                <td>9/10</td>
               </tr>
               <tr>
-                <th scope="row">Mobile 2:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">CSS/SCSS/LESS:</th>
+                <td>9/10</td>
               </tr>
               <tr>
-                <th scope="row">Skype:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">Javascript:</th>
+                <td>7/10</td>
               </tr>
               <tr>
-                <th scope="row">FaceBook:</th>
-                <td>Bui Duc Cuong</td>
+                <th scope="row">React:</th>
+                <td>7/10</td>
+              </tr>
+              <tr>
+                <th scope="row">Git:</th>
+                <td>7/10</td>
               </tr>
             </tbody>
           </table>
@@ -116,9 +126,10 @@ const App = () => {
       <main>
         <div className="main__block">
           <h4 className="title">About Me</h4>
-          <p>I'm a front-end developer who is passionate about html/css & js, building great user experiences, fighting for simplicity over complexity, constantly learning and someone who strives to mentor and share with other developers around me.
-            From scare js to interesting it, i'm on my way...
-            the most important thing is you better than u yesterday
+          <p>I'm a front-end developer who is passionate about html/css & js, building great user experiences, fighting for simplicity over complexity, constantly learning and someone who strives to mentor and share with other developers around me.<br />
+            <blockquote>
+              "The most important thing is you better than u yesterday."
+            </blockquote>
           </p>
         </div>
         <div className="main__block">
@@ -127,7 +138,7 @@ const App = () => {
             <tbody>
               <tr>
                 <th scope="row">University:</th>
-                <td>Bui Duc Cuong</td>
+                <td>Thang Long University</td>
               </tr>
               <tr>
                 <th scope="row">Specialize:</th>
@@ -135,7 +146,7 @@ const App = () => {
               </tr>
               <tr>
                 <th scope="row">Passing Year:</th>
-                <td>Bui Duc Cuong</td>
+                <td>2014</td>
               </tr>
               <tr>
                 <th scope="row">Degree:</th>
@@ -143,29 +154,62 @@ const App = () => {
               </tr>
             </tbody>
           </table>
-          <quote>Start Seft Study from W3Schools, codeschool, codecamp, google and many more...until now.</quote>
+          <p>Start Seft Study from W3Schools, codeschool, codecamp, google and many more...until now.</p>
         </div>
         <div className="main__block">
           <h4 className="title">Work Experience</h4>
           <h5>Markup - Styler</h5>
-          <p>ACT Group Company (2015 - 2016)</p>
+          <p>ACT Group Company (2014 - 2015)</p>
           <p>Team Lead</p>
           <p>
             Convert Psd to Html, customize company's CMS.
           </p>
           <p> Using HTML, Css3.</p>
-          <p>Some product:</p>
+          <p>Some products: </p>
+          <ul>
+            <li>
+              <a href="http://jysk.vn/"> JYSK</a>,
+            </li>
+            <li>
+              <a href="https://www.hoteljob.vn/"> Hotel Job</a>
+            </li>
+          </ul>
 
-          <h5>Front End Engineer</h5>
-          <p>Ocean Themes & FreeLance 2016 - 2017</p>
+          <hr />
+
+          <h5>Front End Dev</h5>
+          <p>Ocean Themes & FreeLance (2015 - 2016)</p>
           <p>Product</p>
           <p>Convert Psd to Html. Using some tasks runner with higher quantity, and validation</p>
           <p>Grunt Grulp Photoshop Html/Css, Js & almost Jquery</p>
           <p>Some Product: </p>
+          <ul>
+            <li>
+              <a href="http://templates.thememodern.com/donald-arch-light/">
+                Donal Arc
+              </a>
+            </li>
+            <li>
+              <a href="http://templates.thememodern.com/amwal/">
+                Amwal
+              </a>
+            </li>
+            <li>
+              <a href="http://templates.thememodern.com/finance/">
+                Finance
+              </a>
+            </li>
+            <li>
+              <a href="http://templates.thememodern.com/continal/">
+                Continal
+              </a>
+            </li>
+          </ul>
+          <hr />
 
-          <h5>Fron End Engineer</h5>
+          <h5>Front End Dev (2016 - 2018)</h5>
           <p>Framgia Inc</p>
-          <p>Outsourcting</p>
+          <p>Outsourcing</p>
           <p>Comunicate with BE, BRSE, event Customer and Designer for a good ui, better ux</p>
           <p>From 6/2017 until now, work as react developer</p>
           <p>HTML5, CSS3, Gulp, Webpack, Git, React, Redux, Js</p>
@@ -174,10 +218,11 @@ const App = () => {
 
         <div className="main__block">
           <h4 className="title">Interest:</h4>
-          <p>Js, good teamate, high salary, dota2, music...stack overflow, codecamp</p>
+          <p>Js, good teamate, high salary, dota2, music, stack overflow, codecamp...</p>
         </div>
 
         <div>
+          dang test:
           The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.
 
           Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.
