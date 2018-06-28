@@ -91,17 +91,6 @@ const App = () => {
                 </td>
               </tr>
               <tr>
-                <th scope="row">Communicate:</th>
-                <td>
-                  <div className="skill">
-                    <p style={{width:'70%'}} data-value="7/10" />
-                    <div className="progress">
-                      <div className="value" style={{width:'70%'}} />
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
                 <th scope="row">Capacity to work under pressure:</th>
                 <td>
                   <div className="skill">
@@ -125,6 +114,17 @@ const App = () => {
               </tr>
               <tr>
                 <th scope="row">Design knowledge:</th>
+                <td>
+                  <div className="skill">
+                    <p style={{width:'70%'}} data-value="7/10" />
+                    <div className="progress">
+                      <div className="value" style={{width:'70%'}} />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Communicate:</th>
                 <td>
                   <div className="skill">
                     <p style={{width:'70%'}} data-value="7/10" />
@@ -175,23 +175,23 @@ const App = () => {
                 </td>
               </tr>
               <tr>
-                <th>React:</th>
-                <td>
-                  <div className="skill">
-                    <p style={{width:'60%'}} data-value="6/10" />
-                    <div className="progress">
-                      <div className="value" style={{width:'60%'}} />
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
                 <th>Git:</th>
                 <td>
                   <div className="skill">
                     <p style={{width:'70%'}} data-value="7/10" />
                     <div className="progress">
                       <div className="value" style={{width:'70%'}} />
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>React:</th>
+                <td>
+                  <div className="skill">
+                    <p style={{width:'60%'}} data-value="6/10" />
+                    <div className="progress">
+                      <div className="value" style={{width:'60%'}} />
                     </div>
                   </div>
                 </td>
@@ -250,10 +250,10 @@ const App = () => {
                 <div className="products-icon">
                   Some products:
                   <a data-for='global' data-tip="JYSK" href="http://jysk.vn/">
-                    <img src="http://via.placeholder.com/26/ccc/fff" alt="jysk" />
+                    <img src="http://via.placeholder.com/25/ccc/fff" alt="jysk" />
                   </a>
                   <a data-for='global' data-tip="Hotel Job" href="https://www.hoteljob.vn/">
-                    <img src="http://via.placeholder.com/26/000/fff" alt="hotel job" />
+                    <img src="http://via.placeholder.com/25/000/fff" alt="hotel job" />
                   </a>
                 </div>
               </li>
@@ -287,21 +287,44 @@ const App = () => {
             <li>
               <div className="products-icon">
                 Some products:
-                <a data-html={true} data-for='global' 
+                <a 
+                  data-html={true} 
+                  data-for='global' 
                   data-tip="
-                    <h5>donald arc</h5>
-                    <p>Interio Design</p>
-                    <p>Just Click to view</p>"
+                    <h4>Project: Donald Arc</h4>
+                    <p>Interior Design</p>
+                    <p>Just Click to view &#8594;</p>"
                   href="http://templates.thememodern.com/donald-arch-light/">
                   <img src={donald} alt="donald arc" />
                 </a>
-                <a data-for='global' data-tip="amwal" href="http://templates.thememodern.com/amwal/">
+                <a
+                  data-html={true} 
+                  data-for='global' 
+                  data-tip="
+                    <h4>Project: Amwal</h4>
+                    <p>Business Financical Design</p>
+                    <p>Just Click to view &#8594;</p>"
+                  href="http://templates.thememodern.com/amwal/">
                   <img src={amwal} alt="amwal" />
                 </a>
-                <a data-for='global' data-tip="finance" href="http://templates.thememodern.com/finance/">
+                <a
+                  data-html={true} 
+                  data-for='global' 
+                  data-tip="
+                    <h4>Project: Finance</h4>
+                    <p>Business Financical Design</p>
+                    <p>Just Click to view &#8594;</p>"
+                  href="http://templates.thememodern.com/finance/">
                   <img src={finance} alt="finance" />
                 </a>
-                <a data-for='global' data-tip="continal" href="http://templates.thememodern.com/continal/">
+                <a
+                  data-html={true} 
+                  data-for='global' 
+                  data-tip="
+                    <h4>Project: Continal</h4>
+                    <p>Business Construction Design</p>
+                    <p>Just Click to view &#8594;</p>"
+                  href="http://templates.thememodern.com/continal/">
                   <img src={continal} alt="continal" />
                 </a>
               </div>
