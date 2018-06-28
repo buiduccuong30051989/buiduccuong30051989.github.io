@@ -381,7 +381,14 @@ const App = () => {
 
         <div className="main__block">
           <h4 className="title">Interest:</h4>
-          <p>Js, good teamate, high salary, dota2, music, stack overflow, codecamp...</p>
+          <ul>
+            <li>Javascript</li>
+            <li>High Salary</li>
+            <li>Dota2</li>
+            <li>Music</li>
+            <li>Film: Friends</li>
+            ...
+          </ul>
         </div>
 
         <div>
