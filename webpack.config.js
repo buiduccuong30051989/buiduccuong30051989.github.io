@@ -4,6 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
   template: "./src/index.html",
+  favicon: 'favicon.ico'
 });
 
 module.exports = {
