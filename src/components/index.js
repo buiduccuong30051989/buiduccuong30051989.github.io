@@ -364,14 +364,14 @@ const App = () => {
               <p>Position: Front End Dev</p>
             </li>
             <li>
-              <p>Description Job: Work with UI UX Team and Backend Team to decide what this App looklike and how does it contact with us, be sure this app bring all ideals of designer and event in pixel perfect and smooth animation effect and be sure backend always have their screen to do. After all, work with tester and q/a, fighting with bugs to be sure our customer would have this app with highest quality.
+              <p>Description Job: Work with UI UX Team and Backend Team to decide what this App look like and how does it work, be sure our product bring all ideals of designer not event in pixel but also smooth animation effect and. After all, work with tester and q/a, fighting with bugs to be sure our prdduct would have highest quality.
               </p>
-              <br></br>
-              <p>From 6/2017 ultil now, i decide to try hard in react js, so, beside markup, i have more time to spend width backend, who gave me API or st, and i must know Business of customer. It's not about how the app from screen to screen, it's about how it work.
-              </p>
-              <br></br>
-              <p>Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.
-              </p>
+             {/* <br></br>
+                           <p>From 6/2017 ultil now, i decide to try hard in react js, so, beside markup, i have more time to spend width backend, who gave me API or st, and i must know Business of customer. It's not about how the app from screen to screen, it's about how it work.
+                           </p>
+                           <br></br>
+                           <p>Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.
+                           </p>*/}
             </li>
             <li>
               <div className="skill-tag">
