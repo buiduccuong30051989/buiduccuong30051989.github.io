@@ -1,8 +1,8 @@
 import React, { Component } from "react"
 import ReactTooltip from 'react-tooltip'
 import avatar from "./../assets/images/myAvatar.png"
-import jysk from "./../assets/images/icon-jysk.ico"
-import hotel from "./../assets/images/icon-hotelJob.ico"
+import jysk from "./../assets/images/icon-jysk.png"
+import hotel from "./../assets/images/icon-hotel.png"
 import donald from "./../assets/images/icon-donald-arc.png"
 import amwal from "./../assets/images/icon-amwal.png"
 import finance from "./../assets/images/icon-finance.png"
@@ -67,9 +67,9 @@ const App = () => {
                 <td>duccuong3005</td>
               </tr>
               <tr>
-                <th scope="row">FaceBook:</th>
+                <th scope="row">Linkedin:</th>
                 <td>
-                  <a target="blank" href="https://www.facebook.com/m4y1989">m4y1989</a>
+                  <a target="blank" href="https://www.linkedin.com/in/bui-cuong-907919166/">m4y1989</a>
                 </td>
               </tr>
             </tbody>
@@ -206,7 +206,7 @@ const App = () => {
           <p>I'm a front-end developer who is passionate about html/css & js, building great user experiences, fighting for simplicity over complexity, constantly learning and someone who strives to mentor and share with other developers around me.<br />
           </p>
           <blockquote>
-            "The most important thing is better than were yesterday."
+            "The most important thing is better than you were yesterday."
           </blockquote>
         </div>
         <div className="main__block">
@@ -249,11 +249,25 @@ const App = () => {
               <li>
                 <div className="products-icon">
                   Some products:
-                  <a data-for='global' data-tip="JYSK" href="http://jysk.vn/">
-                    <img src="http://via.placeholder.com/25/ccc/fff" alt="jysk" />
+                  <a 
+                    data-html={true} 
+                    data-for='global' 
+                    data-tip="
+                      <h4>Project: JYSK</h4>
+                      <p>Furniture and Interior Décor</p>
+                      <p>Just Click to view &#8594;</p>"
+                    href="http://jysk.vn/">
+                    <img src={jysk} alt="Jysk" />
                   </a>
-                  <a data-for='global' data-tip="Hotel Job" href="https://www.hoteljob.vn/">
-                    <img src="http://via.placeholder.com/25/000/fff" alt="hotel job" />
+                  <a 
+                    data-html={true} 
+                    data-for='global' 
+                    data-tip="
+                      <h4>Project: Hotel Job</h4>
+                      <p>Career Hotel Job Social</p>
+                      <p>Just Click to view &#8594;</p>"
+                    href="https://www.hoteljob.vn/">
+                    <img src={hotel} alt="Hotel Job" />
                   </a>
                 </div>
               </li>
@@ -273,15 +287,13 @@ const App = () => {
           <h5>Ocean Themes & FreeLance (2015 - 2016)</h5>
           <ul>
             <li>
-              <p>Position: Front End Dev</p>
-            </li>
-            <li>
               <p>Product</p>
             </li>
             <li>
-              <p>Description Job: Work with UI UX Designer 
-              to translation of the UI/UX design wireframes to actual code, include animation, pixel perfect...and work with backend for code quantity, speed performance.
-              The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.
+              <p>Position: Front End Dev</p>
+            </li>
+            <li>
+              <p>Description Job: Work with UI UX Designer to translation of the UI/UX design wireframes to actual code, include animation, pixel perfect...and work with backend for code quality, speed performance. The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so customer can enhance a website as their company grows.
               </p>
             </li>
             <li>
@@ -346,17 +358,19 @@ const App = () => {
           <h5>Framgia Inc (2016 - 2018)</h5>
           <ul>
             <li>
-              <p>Position: Front End Dev</p>
-            </li>
-            <li>
               <p>Outsourcing</p>
             </li>
             <li>
-              <p>Description Job: Work with UI UX Designer 
-              to translation of the UI/UX design wireframes to actual code, include animation, pixel perfect...and work with backend for code quantity, speed performance.
-              The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.
-
-                From 6/2017 ultil now, i work as react dev.
+              <p>Position: Front End Dev</p>
+            </li>
+            <li>
+              <p>Description Job: Work with UI UX Team and Backend Team to decide what this App looklike and how does it contact with us, be sure this app bring all ideals of designer and event in pixel perfect and smooth animation effect and be sure backend always have their screen to do. After all, work with tester and q/a, fighting with bugs to be sure our customer would have this app with highest quality.
+              </p>
+              <br></br>
+              <p>From 6/2017 ultil now, i decide to try hard in react js, so, beside markup, i have more time to spend width backend, who gave me API or st, and i must know Business of customer. It's not about how the app from screen to screen, it's about how it work.
+              </p>
+              <br></br>
+              <p>Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.
               </p>
             </li>
             <li>
@@ -366,9 +380,11 @@ const App = () => {
                 <div className="tag">PUG TEMPLATE</div>
                 <div className="tag">SCSS</div>
                 <div className="tag">LESS</div>
+                <div className="tag">GULP</div>
                 <div className="tag">BOOTSTRAP</div>
                 <div className="tag">JAVASCRIPT</div>
                 <div className="tag">REACT</div>
+                <div className="tag">REDUX</div>
                 <div className="tag">WEBPACK</div>
                 <div className="tag">PHOTOSHOP</div>
                 <div className="tag">SKETCH</div>
@@ -389,23 +405,6 @@ const App = () => {
             <li>Film: Friends</li>
             ...
           </ul>
-        </div>
-
-        <div>
-          dang test:
-          The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.
-
-          Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.
-
-        </div>
-        <div>
-          <h4>muc tieu gan</h4>
-          Wtan to become pro js
-          <h4> muc tieu xa</h4>
-          Can work good with common framework, translate all youdontknow js es6
-          pro js
-          can design
-          can work with react native at good.
         </div>
       </main>
       <ReactTooltip id="global" place="top" type="dark" effect="float" 
