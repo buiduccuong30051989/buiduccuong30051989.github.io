@@ -28,11 +28,11 @@ const sidebarData = {
   contact: [
     {
       id: 'Mobile 1',
-      content: '(+84) 944 76 4545'
+      content: 'closed'
     },
     {
       id: 'Mobile 2',
-      content: '(+84) 164 326 7218'
+      content: 'closed'
     },
     {
       id: 'Skype',
@@ -40,7 +40,7 @@ const sidebarData = {
     },
     {
       id: 'Linkedin:',
-      content: 'https://www.linkedin.com/in/bui-cuong-907919166/'
+      content: 'closed'
     },
   ],
   softSkills: [
