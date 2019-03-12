@@ -21,7 +21,7 @@ const Content = () => {
       </div>
       <div className="main__block">
         <h4 className="title">Work Experience</h4>
-        <h5>Framgia Inc (2016 - 2018)</h5>
+        <h5>Framgia Inc (2016 - now)</h5>
         <ul>
           <li>
             <p>Outsourcing</p>
