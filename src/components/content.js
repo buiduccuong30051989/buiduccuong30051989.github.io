@@ -208,7 +208,6 @@ const Content = () => {
         <h4 className="title">Interest:</h4>
         <ul>
           <li>Javascript</li>
-          <li>High Salary</li>
           <li>Dota2</li>
           <li>Music</li>
           <li>Film: Friends</li>
