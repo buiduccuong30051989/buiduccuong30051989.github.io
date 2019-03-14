@@ -47,7 +47,6 @@ const Content = () => {
               <div className="tag">JAVASCRIPT</div>
               <div className="tag">REACT</div>
               <div className="tag">REDUX</div>
-              <div className="tag">WEBPACK</div>
               <div className="tag">PHOTOSHOP</div>
               <div className="tag">SKETCH</div>
               <div className="tag">ZEPLIN</div>
@@ -65,7 +64,8 @@ const Content = () => {
             <p>Position: Front End Dev</p>
           </li>
           <li>
-            <p>Description Job: Work with UI UX Designer to translation of the UI/UX design wireframes to actual code, include animation, pixel perfect...and work with backend for code quality, speed performance. The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so customer can enhance a website as their company grows.
+            <p>Description Job: Work with UI UX Designer to translation of the UI/UX design wireframes to actual code, include animation, pixel perfect...and work with backend for code quality, speed performance. 
+              {/* The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so customer can enhance a website as their company grows. */}
             </p>
           </li>
           <li>

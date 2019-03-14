@@ -39,7 +39,7 @@ const sidebarData = {
       content: 'duccuong3005'
     },
     {
-      id: 'Linkedin:',
+      id: 'Linkedin',
       content: 'closed'
     },
   ],
@@ -54,7 +54,7 @@ const sidebarData = {
     },
     {
       id: 'Design knowledge',
-      value: '70%'
+      value: '60%'
     },
     {
       id: 'Communicate',
@@ -76,7 +76,7 @@ const sidebarData = {
     },
     {
       id: 'Javascript',
-      value: '60%'
+      value: '50%'
     },
     {
       id: 'React',
